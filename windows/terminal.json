@@ -1,0 +1,115 @@
+{
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+  "profiles": 
+  {
+      "defaults": 
+      {
+          "acrylicOpacity": 0.40000000000000002,
+          "backgroundImage": "D:\\Others\\gifs\\d7g7ea7-6d02f4fa-bf89-461f-ad2f-189ee9d6c192.gif",
+          "backgroundImageAlignment": "bottomRight",
+          "backgroundImageOpacity": 1.0,
+          "backgroundImageStretchMode": "none",
+          "colorScheme": "Tango Dark",
+          "cursorShape": "bar",
+          "font": 
+          {
+              "face": "FiraCode Nerd Font"
+          },
+          "useAcrylic": true
+      },
+      "list": 
+      [
+          {
+              "name": "Ubuntu-20.04",
+              "source": "Windows.Terminal.Wsl",
+              "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+              "acrylicOpacity": 0.40000000000000002,
+              "background": "#282B34",
+              "backgroundImageAlignment": "bottomRight",
+              "backgroundImageOpacity": 0.65000000000000002,
+              "backgroundImageStretchMode": "none",
+              "colorScheme": "Tango Dark",
+              "cursorHeight": 25,
+              "cursorShape": "underscore",
+              "experimental.retroTerminalEffect": false,
+              "hidden": false,
+              "padding": "8",
+              "useAcrylic": true
+          }
+      ]
+  },
+  "schemes": 
+  [
+      {
+          "background": "#000000",
+          "black": "#000000",
+          "blue": "#3465A4",
+          "brightBlack": "#555753",
+          "brightBlue": "#729FCF",
+          "brightCyan": "#34E2E2",
+          "brightGreen": "#8AE234",
+          "brightPurple": "#AD7FA8",
+          "brightRed": "#EF2929",
+          "brightWhite": "#EEEEEC",
+          "brightYellow": "#FCE94F",
+          "cursorColor": "#FFFFFF",
+          "cyan": "#06989A",
+          "foreground": "#D3D7CF",
+          "green": "#4E9A06",
+          "name": "Tango Dark",
+          "purple": "#75507B",
+          "red": "#CC0000",
+          "selectionBackground": "#FFFFFF",
+          "white": "#D3D7CF",
+          "yellow": "#C4A000"
+      },
+      {
+          "background": "#FFFFFF",
+          "black": "#000000",
+          "blue": "#3465A4",
+          "brightBlack": "#555753",
+          "brightBlue": "#729FCF",
+          "brightCyan": "#34E2E2",
+          "brightGreen": "#8AE234",
+          "brightPurple": "#AD7FA8",
+          "brightRed": "#EF2929",
+          "brightWhite": "#EEEEEC",
+          "brightYellow": "#FCE94F",
+          "cursorColor": "#000000",
+          "cyan": "#06989A",
+          "foreground": "#555753",
+          "green": "#4E9A06",
+          "name": "Tango Light",
+          "purple": "#75507B",
+          "red": "#CC0000",
+          "selectionBackground": "#FFFFFF",
+          "white": "#D3D7CF",
+          "yellow": "#C4A000"
+      },
+      {
+          "background": "#002B36",
+          "black": "#002B36",
+          "blue": "#268BD2",
+          "brightBlack": "#657B83",
+          "brightBlue": "#839496",
+          "brightCyan": "#D33682",
+          "brightGreen": "#B58900",
+          "brightPurple": "#EEE8D5",
+          "brightRed": "#CB4B16",
+          "brightWhite": "#FDF6E3",
+          "brightYellow": "#586E75",
+          "cursorColor": "#FFFFFF",
+          "cyan": "#2AA198",
+          "foreground": "#93A1A1",
+          "green": "#859900",
+          "name": "wsl",
+          "purple": "#6C71C4",
+          "red": "#DC322F",
+          "selectionBackground": "#FFFFFF",
+          "white": "#93A1A1",
+          "yellow": "#B58900"
+      }
+  ]
+}

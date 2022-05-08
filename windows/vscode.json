@@ -1,0 +1,22 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Blueberry dark theme",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1,
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
