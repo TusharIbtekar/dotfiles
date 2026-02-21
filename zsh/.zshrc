@@ -110,3 +110,11 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
 
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+export PATH="$HOME/.local/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/tushar/.antigravity/antigravity/bin:$PATH"
+export PATH="$PATH:$(go env GOPATH)/bin"
+export PATH="/opt/homebrew/bin:$PATH"
