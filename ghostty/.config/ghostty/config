@@ -1,0 +1,7 @@
+# Ghostty configuration.
+#
+# Run `ghostty +show-config --default --docs` to view all available options.
+# Docs: https://ghostty.org/docs/config
+
+# Remove vertical padding so tmux status bar sits flush with the window edge.
+window-padding-y = 0
