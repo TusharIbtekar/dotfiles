@@ -118,3 +118,8 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="/Users/tushar/.antigravity/antigravity/bin:$PATH"
 export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH="/opt/homebrew/bin:$PATH"
+
+[ -f ~/.secrets ] && source ~/.secrets
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
