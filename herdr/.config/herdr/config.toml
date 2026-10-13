@@ -1,0 +1,80 @@
+onboarding = false
+
+[theme]
+name = "catppuccin"
+auto_switch = false
+
+# All 19 tokens; only 9 are documented, the rest come from the herdr binary.
+[theme.custom]
+panel_bg = "#050b0c"      # Styx depths
+sidebar_bg = "#030708"
+surface_dim = "#0a1214"
+surface0 = "#0f1a1c"
+surface1 = "#18282b"
+active_row_bg = "#0d1719"
+selection_bg = "#3d1428"  # blood in the dark
+overlay0 = "#3a4f53"
+overlay1 = "#5a7175"
+subtext0 = "#a89cae"      # Lethe, faded
+text = "#efe6d2"          # bone
+accent = "#a98bd8"        # Erebus
+peach = "#c4a8e8"
+yellow = "#f5c04a"        # ichor
+red = "#e0243c"
+green = "#6fae86"         # asphodel
+teal = "#2ec4b6"          # Styx
+blue = "#4f6ddb"          # Nyx
+mauve = "#b45cff"         # Erebus
+
+[keys]
+prefix = "ctrl+space"
+reload_config = "prefix+r"
+resize_mode = "prefix+shift+r"
+split_vertical = "prefix+|"
+focus_pane_left = "ctrl+h"
+focus_pane_down = "ctrl+j"
+focus_pane_up = "ctrl+k"
+focus_pane_right = "ctrl+l"
+# prefix+g is lazygit, as in tmux
+goto = "prefix+f"
+
+[[keys.command]]
+key = "prefix+g"
+type = "popup"
+command = "lazygit"
+width = "90%"
+height = "90%"
+
+[[keys.command]]
+key = "prefix+l"
+type = "plugin_action"
+command = "tushar.last-tab.toggle"
+description = "last tab"
+
+[ui]
+status_indicators = "symbols"
+accent = "#a98bd8"
+tab_bar_position = "bottom"
+tab_bar_right = [
+  { type = "zoom" },
+  { type = "text", text = "T A R T A R U S" },
+  { type = "datetime", format = "%H:%M" },
+  { type = "datetime", format = "%d·%b·%y" },
+]
+tab_bar_right_separator = "  ⁘  "
+
+[ui.sidebar.spaces]
+row_gap = 1
+rows = [
+  ["state_icon", { token = "workspace", fg = "#a98bd8", bold = true }],
+  [{ token = "branch", fg = "#2ec4b6" }, "git_status"],
+]
+
+[ui.sidebar.agents]
+rows = [
+  ["state_icon", { token = "agent", fg = "#f5c04a", bold = true }],
+  [{ token = "workspace", fg = "#a89cae", dim = true }, { token = "tab", fg = "#a89cae", dim = true }],
+]
+
+[ui.toast]
+delivery = "herdr"

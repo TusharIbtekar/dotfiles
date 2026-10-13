@@ -1,0 +1,15 @@
+id = "tushar.last-tab"
+name = "Last tab"
+version = "0.1.0"
+min_herdr_version = "0.9.3"
+description = "tmux last-window: jump back to the previously focused tab in the workspace"
+
+[[actions]]
+id = "toggle"
+title = "Last tab"
+contexts = ["workspace"]
+command = ["python3", "last_tab.py", "toggle"]
+
+[[events]]
+on = "tab.focused"
+command = ["python3", "last_tab.py", "record"]
