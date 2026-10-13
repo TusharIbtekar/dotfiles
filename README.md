@@ -65,6 +65,7 @@ dotfiles/
 ## Setup
 
 * Setup ssh key ⇒ `ssh-keygen -t rsa`
+* Link herdr plugins after `stow -t ~ herdr` (herdr keeps its plugin registry outside the repo) ⇒ `herdr plugin link ~/.config/herdr-plugins/last-tab`
 
 ---
 

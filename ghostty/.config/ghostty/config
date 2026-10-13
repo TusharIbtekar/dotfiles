@@ -9,8 +9,5 @@ window-padding-y = 0
 keybind = option+backspace=text:\x1b\x7f
 background = #050b0c
 
-background-opacity = 0.94
-background-blur = 20
-
 custom-shader = shaders/glide.glsl
 custom-shader-animation = always
