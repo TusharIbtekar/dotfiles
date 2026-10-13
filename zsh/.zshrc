@@ -107,7 +107,6 @@ function create_tmux_session() {
 }
 
 eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
 
 
@@ -121,5 +120,5 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 [ -f ~/.secrets ] && source ~/.secrets
 
-# Load Angular CLI autocompletion.
-source <(ng completion script)
+# zoxide must be initialized at the very end of the config
+eval "$(zoxide init --cmd cd zsh)"
